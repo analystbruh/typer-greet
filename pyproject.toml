@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools >= 78.1.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typ"
+version = "0.1.2"
+
+[project.scripts]
+typ = "typ.main:app"
