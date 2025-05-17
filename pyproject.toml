@@ -5,6 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "typ"
 version = "0.1.2"
+requires-python = ">= 3.8"
+dependencies = ["typer>=0.15.4"]
+authors = [
+    {name = "Chris M"}
+]
+maintainers = [
+    {name = "Chris M"}
+]
+description = "An example of a CLI tool built with the Typer module"
+readme = {file = "README.txt", content-type = "text/markdown"}
 
 [project.scripts]
 typ = "typ.main:app"

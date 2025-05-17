@@ -1,8 +1,0 @@
-pyproject.toml
-src/typ/main.py
-src/typ.egg-info/PKG-INFO
-src/typ.egg-info/SOURCES.txt
-src/typ.egg-info/dependency_links.txt
-src/typ.egg-info/entry_points.txt
-src/typ.egg-info/top_level.txt
-src/typ/commands/greeting.py
