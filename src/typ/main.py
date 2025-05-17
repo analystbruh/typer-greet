@@ -17,7 +17,7 @@ app = typer.Typer()
 def main(
     version: Annotated[
         Optional[bool],
-        typer.Option('--version', callback=version, help="show version" )
+        typer.Option('--version', callback=version, help="Show app version." )
     ] = None
 ):
     pass
